@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    font-size:25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box{
+    max-width: 50%;
+    display:flex;
+    column-gap: 11px;
+    align-items: center;
+    margin: 30px;
+}
+span{
+    padding: 2px 7px;
+    border: 1px solid black;
+}
+.btn1,.btn2,.btn3{
+    padding:2.1px 3px
+}
